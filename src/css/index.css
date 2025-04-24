@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pagina-inicial {
+    background-color: black;
+    position: relative;
+}
+
+.slideshow-container img {
+    display: block;
+    margin: auto;
+    opacity: 0;
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+}
+
+.slideshow-container img.active {
+    opacity: 0.4;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 20px;
+    align-items: center;
+    color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-titulo a {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.opcoes {
+    display: flex;
+    gap: 20px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.display-flex {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+}
+
+.texto-inicial {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 20px 10px;
+    height: fit-content;
+    border-radius: 15px;
+}
+
+.texto-inicial h1 {
+    font-weight: 450;
+    margin-bottom: -15px;
+}
+
+.texto-inicial ul {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+.texto-inicial button {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    background-color:rgb(255, 117, 42);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.texto-inicial button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 30px;
+    border-radius: 15px;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-left input {
+    margin-top: 5px;
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.container button {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    width: 150px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    background-color:rgb(255, 117, 42);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.container button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.font-size-15px {
+    font-size: 15px;
+}

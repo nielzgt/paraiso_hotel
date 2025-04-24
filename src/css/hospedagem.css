@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, #000002, rgb(40, 40, 40));
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 20px;
+    align-items: center;
+    color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-titulo a {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.opcoes {
+    display: flex;
+    gap: 20px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.container {
+    padding: 25px;
+}
+
+.plano {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 15px;
+    align-items: center;
+    text-align: justify;
+    display: flex;
+    gap: 40px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    margin: auto;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.plano:hover {
+    transform: scale(1.03);
+}
+
+.plano img {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+.plano-info h1 {
+    font-weight: 450;
+}
+
+.display-flex {
+    display: flex;
+    gap: 60px;
+    padding: 20px;
+}
+
+.display-flex li::marker {
+    color: rgb(255, 117, 42);
+}
+
+.plano button {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 10px;
+    background-color:rgb(255, 117, 42);
+    border-radius: 10px;
+}
+
+.plano button:hover {
+    cursor: pointer;
+}
